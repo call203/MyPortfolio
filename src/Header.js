@@ -8,6 +8,7 @@ import { useWindowWidthAndHeight } from './CustomHooks';
 const Header = () =>{
     // use our custom hook to get the the window size
     const [width, height] = useWindowWidthAndHeight();
+    console.log(height)
     return(
         <header>
             <div className="header-inner">
