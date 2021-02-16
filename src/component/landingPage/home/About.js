@@ -12,7 +12,13 @@ const About = () =>{
                 <div >
                     <span className="about-me">About Me</span><br/>
                     <span className="about-detail">
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Hello! My name is Soyeon Lee, and I'm a web developer.
+                        I have a back-end developer and also habe a possion for the front-end.
+                        In the end, My goal is to become a full stack developer.
+                        I care deeply about building interfaces of people possible. because I think cooperation 
+                        is the most important thing when building services.
+                        I'm always challenging. It is fun to learn while experiencing.
+                        so, I will always challenge and develop constantly.
                     </span>
                 </div>
             </Col>
