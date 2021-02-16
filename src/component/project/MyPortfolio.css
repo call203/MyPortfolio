@@ -1,0 +1,35 @@
+#MyPortfolio {
+  margin-top: 15rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  width: 70%;
+}
+
+.title {
+  align-items: left !important;
+}
+/*개발 스택*/
+.description-margin {
+  margin-left: 2rem;
+}
+
+/*프로젝트 설명 */
+.project-img img {
+  width: 40rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+#fixedbtn {
+  position: fixed;
+  right: 5%;
+  bottom: 3%;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0.6rem;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#fixedbtn span {
+  font-size: 1rem;
+}

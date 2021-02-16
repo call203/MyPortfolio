@@ -1,0 +1,57 @@
+/*title*/
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*sub - title*/
+.skills-subtitle {
+  margin-left: 10%;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+/*skill Content*/
+.skills-row {
+  margin-left: 15%;
+  margin-bottom: 2rem;
+  color: black !important;
+}
+.skill-name {
+  font-size: 1.3rem;
+}
+
+/**반응형 쿼리**/
+/*데스크탑*/
+@media screen and (min-width: 768px) {
+  #Skill {
+    height: 130vh !important;
+  }
+}
+
+/* 모바일*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #Skill {
+    height: 180vh !important;
+  }
+  .skills-title {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .skills-subtitle,
+  .skill-name {
+    font-size: 0.8rem;
+  }
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  #Skill {
+    height: 90vh !important;
+  }
+}

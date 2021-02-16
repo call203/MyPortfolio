@@ -1,0 +1,24 @@
+$hoverBgColor: #ffa60b;
+$hoverBgColor2: #ffe282;
+
+.text {
+  width: 100%;
+  height: 35vh;
+  background: #fff;
+  opacity: 0;
+}
+
+.project-row {
+  .project-item {
+    margin-bottom: 1rem;
+    &:hover .text {
+      background: $hoverBgColor;
+      opacity: 0.9;
+      text-align: justify;
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: 700;
+      padding: 30px;
+    }
+  }
+}

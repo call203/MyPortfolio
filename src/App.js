@@ -1,20 +1,17 @@
 import React from 'react';
-import Header from './Header';
-import Home from './Home';
-import Projects from './Projects';
-import About from './About';
-import Contact from './Contact';
-import Footer from './Footer';
+import Header from './component/layout/Header';
+import Contact from './component/layout/Contact';
+import WalkingResearch from './component/project/WalkingResearch';
+import { Route } from 'react-router-dom';
+import Main from './component/landingPage/home/Main';
+import Project from './component/project/Project';
+
 
 const App = ()=>{
   return(
     <div>
-        <Header/>
-        <Home/>
-        <Projects/>
-        <About/>
-        <Contact/>
-        <Footer/>
+      <Route path="/" component={Main} exact={true} />
+      <Route path="/project" component={Project}/>
     </div>
   )
 }
