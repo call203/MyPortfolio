@@ -10,7 +10,7 @@ import ScrollToTop from './ScrollToTop';
 // * App 을 BrowserRouter 로 감싸기
 ReactDOM.render(
     
-    <BrowserRouter>
+    <BrowserRouter basename="/MyPortfolio">
     <ScrollToTop />
             <App />
     </BrowserRouter>,
