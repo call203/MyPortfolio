@@ -30,7 +30,6 @@ const Fixedbtn = styled.div`
             right:10%;
         }
         `;
-/* 뒤로 돌아가기 버튼 css + 반응형 */
 
 
 const VisualizeData = () =>{

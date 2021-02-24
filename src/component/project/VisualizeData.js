@@ -11,7 +11,23 @@ import { Route, Link } from 'react-router-dom';
 import Main from '../landingPage/home/Main';
 import { useHistory } from 'react-router-dom';
 
+import  styled from 'styled-components';
 
+
+/* 뒤로 돌아가기 버튼 css + 반응형 */
+const Fixedbtn = styled.div`
+        position: fixed;
+        right: 5%;
+        bottom: 3%;
+        z-index: 1000;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 0.6rem;
+        border-radius: 20px 20px 20px 20px;
+
+        @media ${(props) => props.theme.mobile}{
+            right:10%;
+        }
+        `;
 
 const VisualizeData = () =>{
     
@@ -28,10 +44,10 @@ const VisualizeData = () =>{
     return(
         <section id="VisualizeData">
             {/* 프로젝트로 돌아가기*/}
-            <div id="fixedbtn" onClick={handleClick}>
+            <Fixedbtn onClick={handleClick}>
                 <FontAwesomeIcon icon={faHandPointLeft} />
                 <span>&nbsp;프로젝트로 돌아가기</span>
-            </div>
+            </Fixedbtn>
 
             {/** title */}
             <h3 className="title">Visualize Quality Data  |  Spring를 이용한 품질 데이터 시각화 프로젝트</h3>

@@ -16,8 +16,9 @@
 
 /*프로젝트 설명 */
 .project-img img {
-  width: 30rem;
+  width: 80%;
   height: auto;
+  margin-bottom: 1rem;
 }
 #fixedbtn {
   position: fixed;
