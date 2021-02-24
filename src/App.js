@@ -5,14 +5,15 @@ import WalkingResearch from './component/project/WalkingResearch';
 import { Route } from 'react-router-dom';
 import Main from './component/landingPage/home/Main';
 import Project from './component/project/Project';
-
+import { ThemeProvider } from 'styled-components';
+import theme from "./style/theme";
 
 const App = ()=>{
   return(
-    <div>
+    <ThemeProvider theme={theme}>
       <Route path="/" component={Main} exact={true} />
       <Route path="/project" component={Project}/>
-    </div>
+    </ThemeProvider>
   )
 }
 

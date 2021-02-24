@@ -16,11 +16,12 @@
 
 /*프로젝트 설명 */
 .project-img img {
-  width: 40rem;
+  width: 80%;
   height: auto;
   margin-bottom: 1rem;
 }
-#fixedbtn {
+
+/* #fixedbtn {
   position: fixed;
   right: 5%;
   bottom: 3%;
@@ -32,4 +33,4 @@
 
 #fixedbtn span {
   font-size: 1rem;
-}
+} */

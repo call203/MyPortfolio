@@ -18,7 +18,7 @@ const Home = () =>{
                <br/>
 
                 {/** introduction - email contact */}
-                <div className="home-email">you can reach out via email- <a  href='mailto:freeyeon96@gmail.com' >freeyeon96@gamil.com</a></div>
+                <div className="home-email">you can reach out via email- <a  href='mailto:freeyeon96@gmail.com' >freeyeon96@gmail.com</a></div>
            </div>
         </section>
     )
