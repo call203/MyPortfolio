@@ -10,7 +10,7 @@ const Footer = () =>{
             <div className="social">
                 <ul className="social-links">
                     <li>
-                        <a href='https://call203.tistory.com/'><FontAwesomeIcon icon={faBlog} /></a>
+                        <a href='https://elastic-gates-7b6fb8.netlify.app/'><FontAwesomeIcon icon={faBlog} /></a>
                     </li>
                     <li>
                         <a href="mailto:freeyeon96@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
